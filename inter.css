@@ -1,0 +1,377 @@
+html{
+    background-color: white;
+}
+
+#header{
+    background-color: white;
+    width: 100%; height: 210px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo{
+    margin-top: 30px;
+    display: block;
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 50%; height: auto;
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 0.5cm;
+    margin-left: 18px;
+}
+
+#nav a:hover{
+    color: rgb(19, 206, 181);
+}
+
+#parallax2{
+    background-image: url(g3.jpg);
+    height: 500px;
+    margin-top: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#open{
+    text-shadow: 0 1px 0 yellow, 0 0 5px red;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 1.9cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#basket{
+    height: 300px; width: 80%;
+    border: black 2px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gambarBasket{
+    background-image: url(basket.jpg);
+    float: left;
+    border-right: solid black 3px;
+    margin-top: 0;
+    width: 550px; height: 300px;
+    background-size: cover;
+}
+
+#bword{
+    margin-left: 70px;
+    float: left;
+    font-size: 1.2cm;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button{
+    float: left;
+    border: none;
+    margin-left: 75px;
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block  
+}
+
+#button a{
+    font-size: 1cm;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0px;
+    margin-top: 160px;
+    padding: 15px 32px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+#button a:hover{
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: black 2px solid;
+}
+
+#ml{
+    height: 300px; width: 80%;
+    border: black 2px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gambarML{
+    background-image: url(ml.png);
+    float: left;
+    border-right: solid black 3px;
+    margin-top: 0;
+    width: 550px; height: 300px;
+    background-size: cover;
+}
+
+#mword{
+    margin-left: 70px;
+    float: left;
+    font-size: 1.2cm;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button2{
+    float: left;
+    border: none;
+    margin-left: 75px;
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block  
+}
+
+#button2 a{
+    font-size: 1cm;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0px;
+    margin-top: 160px;
+    padding: 15px 32px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+#button2 a:hover{
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    border: black 2px solid;
+}
+
+#footer {
+	background: black;
+	margin-top: 30;
+	padding: 36px 0 42px;
+}
+
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 100px;
+	padding: 0;
+}
+
+#footer div a {
+	float: right;
+	list-style: none;
+	margin: 0 25px;
+	padding: 0;
+	width: 130px;
+}
+
+#footer  a img { 
+    float: right;
+    width: 44px;height: 44px;
+}
+
+#head{
+    margin-top: 100px;
+    width: 30%;
+    font-size: 1.1cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#basket1{
+    height: auto; width: 80%;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#basket1 video{
+    margin-left: 46px;
+    margin-right: 46px;
+    border-radius: 20%;
+    margin-top: 10px;
+    width: 40%; height: 400px;
+    padding: 10px;
+    background-color: black;
+}
+
+#basket1 img{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+    width: 60%; height: auto;
+}
+
+#basket1 #teks{
+    text-align: justify;
+    line-height: 0.5cm;
+}
+
+
+#teks p{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#teks #tx{
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#teks{
+    margin-left: 10%;
+    width: 80%;
+    border-bottom: solid 2px black;
+}
+
+#teks2 #gamlap{
+    background-image: url(f.jpg);
+    float: left;
+    border-right: solid black 3px;
+    margin-top: 0;
+    width: 550px; height: 300px;
+    background-size: cover;
+}
+
+#teks2 p{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#teks2 #tx{
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#teks2{
+    height: 300px; width: 80%;
+    border: black 2px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttt{
+    font-size: 1cm;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    clear: both;
+}
+
+#headm{
+    margin-top: 100px;
+    width: 44%;
+    font-size: 1.1cm;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#ml1{
+    height: auto; width: 80%;
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teks2 #gamm{
+    background-image: url(m1.png);
+    float: left;
+    border-right: solid black 3px;
+    margin-top: 0;
+    width: 550px; height: 300px;
+    background-size: cover;
+}
+
+#gml{
+    width: 40%;height: auto;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+#ml1 img{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+    width: 60%; height: auto;
+}
+
+#buttt {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+#buttt:hover {background-color: #000000}
+  
+#buttt:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

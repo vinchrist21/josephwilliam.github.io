@@ -1,0 +1,266 @@
+html{
+    background-color: white;
+}
+
+#header{
+    background-color: white;
+    width: 100%; height: 210px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo{
+    margin-top: 30px;
+    display: block;
+    font-size: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 50%; height: auto;
+    text-align: center;
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 0.5cm;
+    margin-left: 18px;
+}
+
+#nav a:hover{
+    color: rgb(19, 206, 181);
+}
+
+#open{
+    text-shadow: 0 1px 0 yellow, 0 0 5px red;
+    top: 125%;
+    left: 50%;
+    color: black;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 49%;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+    margin-top: 8%;
+    margin-left: 4%;
+    float: left;
+  }
+  
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 45px 15px;
+    background-color: gray;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 107%;
+    height:0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containers {
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-top: 15%;
+    margin-right: 6%;
+}
+  
+.images {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 45px 15px;
+    background-color: gray;
+}
+  
+.overlays {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 104%;
+    height:0;
+    transition: .5s ease;
+}
+  
+.containers:hover .overlays {
+    bottom: 0;
+    height: 100%;
+}
+  
+.texts {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containerss {
+    position: relative;
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    float: right;
+}
+  
+.imagess {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 45px 15px;
+    background-color: gray;
+}
+  
+.overlayss {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 107%;
+    height:0;
+    transition: .5s ease;
+}
+  
+.containerss:hover .overlayss {
+    bottom: 0;
+    height: 100%;
+}
+  
+.textss {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.containersss {
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 4%;
+  }
+  
+.imagesss {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 45px 15px;
+    background-color: gray;
+  }
+  
+.overlaysss {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 104%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+.containersss:hover .overlaysss {
+    bottom: 0;
+    height: 100%;
+}
+  
+.textsss {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#footer {
+	background: black;
+    margin: 50% 0 0 0;
+    
+	padding: 36px 0 42px;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 100px;
+	padding: 0;
+}
+
+#footer div a {
+	float: right;
+	list-style: none;
+	margin: 0 25px;
+	padding: 0;
+	width: 130px;
+}
+
+#footer  a img { 
+    float: right;
+    width: 44px;height: 44px;
+}
